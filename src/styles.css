@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cookie&family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
+/*font-family: 'Permanent Marker', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Cookie', cursive;
+font-family: 'Prata', serif;*/
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  background: linear-gradient(to right, rgb(58, 11, 89), rgb(158, 19, 149));
+}
+button {
+  margin-top: 0.4rem;
+  margin-right: 1rem;
+  width: 35%;
+  object-fit: contain;
+  margin-bottom: 0.5rem;
+  border: 3px solid black;
+  color: white;
+  background-color: black;
+  box-shadow: 5px 3px 3px pink;
+}
+
+li {
+  list-style-type: none;
+  background: linear-gradient(to right, rgb(158, 19, 149), rgb(209, 10, 106));
+  padding-top: 0.2rem;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+  border: 1px solid black;
+  border-radius: 45%;
+  box-shadow: 10px 10px 19px black;
+}
+li {
+  text-align: center;
+}
+li h2 {
+  font-family: "Cookie", cursive;
+  font-size: 2.5em;
+  text-decoration: underline;
+}
+li h2 span {
+  text-decoration: none;
+}
+.music {
+  font-size: 24px;
+  text-decoration: none;
+}
+
+li h4 {
+  text-align: center;
+
+  background-color: pink;
+  color: black;
+  margin-left: 35%;
+  margin-right: 35%;
+}
+
+.heading {
+  font-family: "Cookie", cursive;
+  font-size: 50px;
+}
+.heading span {
+  color: pink;
+}
+.quote {
+  font-family: "Permanent Marker", cursive;
+  font-size: 1.3em;
+}
+.description {
+  font-size: 1.9em;
+  font-family: "Prata", serif;
+}
+.description #first,
+#second {
+  font-family: "Cookie", cursive;
+  font-size: 1.5em;
+}
+.description #second {
+  color: black;
+}
+.description span {
+  color: pink;
+}
+
+footer .about {
+  text-align: left;
+  font-family: "Prata", serif;
+}
+footer .about span {
+  color: pink;
+}
+.footer-footer a {
+  color: white;
+  background-color: black;
+  text-decoration: none;
+}
+.footer-footer {
+  display: flex;
+  justify-content: flex-start;
+}
+.spotify {
+  margin-left: 1rem;
+}
+
+footer .about .first,
+.second {
+  font-family: "Cookie", cursive;
+  font-size: 1.3em;
+}
+footer .about .second {
+  color: black;
+}
